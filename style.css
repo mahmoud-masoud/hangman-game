@@ -175,6 +175,10 @@ h1 {
 
 @media (max-width: 500px) {
   .word__container {
-    margin-top: 20px;
+    margin-top: 0px;
+  }
+
+  .game-container {
+    margin-top: 50px;
   }
 }
