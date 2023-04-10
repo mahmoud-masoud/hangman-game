@@ -55,6 +55,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 100px;
 }
 
 .word {
@@ -170,4 +171,10 @@ h1 {
 
 .notification-container.show {
   transform: translateY(-50px);
+}
+
+@media (max-width: 500px) {
+  .word__container {
+    margin-top: 20px;
+  }
 }
